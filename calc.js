@@ -34,7 +34,7 @@ reader.question("What would you like to calculate?", function(input){
 			console.log(num1 / num2);
 		}
 
-		if (mathSymbol === "~"){
+		if (mathSymbol === "**"){
 			console.log(Math.sqrt(num1));
 		}
 
